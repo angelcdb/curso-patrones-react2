@@ -1,0 +1,67 @@
+.TodoItem {
+  background-color: #FAFAFA;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px;
+  border-radius: 10px;
+  box-shadow: 4px 10px 10px 8px rgba(20, 19, 20, 0.5);
+
+}
+
+.TodoItem-p {
+  width: calc(100% - 120px);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.TodoItem-p--complete {
+  /*Texto rallado*/
+  text-decoration: line-through;
+}
+
+.Icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Icon-check {
+  position: absolute;
+  left: 12px;
+  color: red;
+}
+.Icon-check:hover {
+  color: #4caf50;
+}
+.Icon-check--active {
+  position: absolute;
+  color: #4caf50;
+}
+.Icon-check--active:hover {
+  color: red;
+}
+
+
+.Icon-delete {
+  position: absolute;
+  top: auto;
+  right: 0;
+}
+.Icon-delete:hover {
+  color: red;
+}
+.Icon-edit{
+  position: absolute;
+  top: auto;
+  right: 30px;
+}
+.Icon-edit:hover{
+  color: #61DAFA;
+}

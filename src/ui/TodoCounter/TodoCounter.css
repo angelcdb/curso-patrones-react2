@@ -1,0 +1,16 @@
+.TodoCounter{
+    color: blueviolet;
+    background-color: #dcffd8;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 28px;
+}
+
+.TodoCounter--loading{
+    opacity: 25%;
+}
+.Todo-welcome{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
