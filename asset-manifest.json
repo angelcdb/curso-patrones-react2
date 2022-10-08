@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/curso-patrones-react2/static/css/main.a87b127b.css",
+    "main.js": "/curso-patrones-react2/static/js/main.e0ad7990.js",
+    "index.html": "/curso-patrones-react2/index.html",
+    "main.a87b127b.css.map": "/curso-patrones-react2/static/css/main.a87b127b.css.map",
+    "main.e0ad7990.js.map": "/curso-patrones-react2/static/js/main.e0ad7990.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a87b127b.css",
+    "static/js/main.e0ad7990.js"
+  ]
+}
